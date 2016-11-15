@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="">
+	
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+<input type="" name="Number of the player">
+<div class="wrapper">
+	<canvas id="myowncanvas" width="300em" height="150em"></canvas>
+</div>
+
+
+</body>
+<script src="poker.js/release/poker.min.js"></script>
+ <script type="text/javascript">
+ 	var canvas = document.getElementById('myowncanvas').getContext('2d');
+	
+	canvas.drawPokerBack(0, 0, 120, '#b55', '#a22');
+	canvas.drawPokerBack(90, 0, 120, '#b55', '#a22');
+	canvas.drawPokerBack(180, 0, 120, '#b55', '#a22');
+ window.onclick = function(e){
+	canvas.drawPokerCard(0, 0, 120, 'hearts', '6');}
+  </script>
+</html>
