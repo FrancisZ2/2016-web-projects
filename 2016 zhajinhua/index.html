@@ -17,9 +17,9 @@
 </head>
 
 <body>
-<input type="" name="Number of the player">
 <div class="wrapper">
-	<canvas id="myowncanvas" width="300em" height="150em"></canvas>
+	<canvas id="myowncanvas" width="300em" height="150em" style=" padding-left: 0; padding-right: 0;  margin-top: 20%;  margin-left: auto;  margin-right: auto;
+   display: block;"></canvas>
 </div>
 
 
@@ -28,10 +28,19 @@
  <script type="text/javascript">
  	var canvas = document.getElementById('myowncanvas').getContext('2d');
 	
+ /* var background = new Image();
+  background.src = "http://zebracocktaillounge.com/wp-content/uploads/2015/02/poker-table-background.jpg";
+
+  background.onload = function(){
+  canvas.drawImage(background,0,0);}​
+*/
 	canvas.drawPokerBack(0, 0, 120, '#b55', '#a22');
 	canvas.drawPokerBack(90, 0, 120, '#b55', '#a22');
 	canvas.drawPokerBack(180, 0, 120, '#b55', '#a22');
  window.onclick = function(e){
-	canvas.drawPokerCard(0, 0, 120, 'hearts', '6');}
+	canvas.drawPokerCard(0, 0, 120, 'hearts', '6');
+  canvas.drawPokerCard(90, 0, 120, 'spades', 'q');
+  canvas.drawPokerCard(180, 0, 120, 'diamonds', 'a');
+}
   </script>
 </html>
