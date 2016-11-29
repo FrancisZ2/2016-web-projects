@@ -1,0 +1,5 @@
+BAIDU_SSP_define({"queryid" : "3d6e597d6aea72a5","tuid" : "u2497515_0","placement" : {"basic" : {"cname":"hustsonycpr","conBackEnv":1,"flowType":1,"mediumType":1,"rspFormat":1,"sellType":2,"sspId":1,"tuId":9223372032562306027,"userId":1575915}
+,"container" : {"anchoredType":1,"floated":{},"height":40,"sizeType":1,"width":595}
+,"fillstyle" : {"backgroundColor":"#ffffff","cloudTheme":{"stid":5},"elements":[5],"flush":0,"layout":[2],"lu":{"borderWidth":1,"number":0},"opacity":100,"search":{},"styleType":2,"txt":{"align":1,"bborder":1,"cbackground":"#ffffff","cborder":"#ffffff","cflush":"#e10900","ctitle":"#0000ff","fontName":"微软雅黑","fontSize":14,"number":4},"video":{}}
+,"userdefine" : "|cpro_cpro_lu=1,#ffcad0,#000000,宋体,#ffffff|cpro_layout_filter=image|cpro_template=baiduCustSTagLinkUnit|cpro_version=2.0","complement_type" : 2,"update" : "1469609084_1478391793"},"extends" : {"ssph":40,"sspw":595}
+,"pdb_deliv" : {"deliv_id" : "0","deliv_des" : {},"brandad" : 0},"order_deliv" : {"deliv_id" : "0","demand_id" : "0"},"rtb_deliv" : {"deliv_id" : "0","demand_id" : "2497515"},"media_protect" : ""});
